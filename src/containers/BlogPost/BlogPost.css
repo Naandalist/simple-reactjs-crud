@@ -1,0 +1,131 @@
+.center {
+    text-align: center;
+}
+
+.App-logo {
+height: 40vmin;
+}
+
+.nav-header {
+background-color: #282c34;
+min-height: 10vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+}
+
+.App-link {
+color: #09d3ac;
+}
+
+.section-title{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.post{
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.img-thumb{
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.img-thumb img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content{
+    flex: 1;
+}
+
+.content p.title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3d4a6e;
+    margin-bottom: 16px;
+}
+
+.content p.desc{
+    margin: 0px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.remove{
+    padding:  6px 9px;
+    background-color: salmon;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 18px;
+}
+
+.update{
+    padding:  6px 9px;
+    background-color: salmon;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    margin-top: 18px;
+    margin-right: 10px;
+}
+
+.remove:hover{
+    cursor: pointer;
+}
+
+.form-data{
+    border: 1px solid rgba(0,0,0,0.3);
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+label{
+    font-weight: bold;
+}
+
+.form-add-post input, .form-add-post textarea{
+    outline: none;
+    border: 1px rgba(0,0,0,0.3) solid;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #607D8B;
+}
+
+button.btn-submit{
+    outline: none;
+    border: px solid green;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #2196F3;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
